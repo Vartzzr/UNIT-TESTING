@@ -1,0 +1,14 @@
+Steps for beginning UNIT TESTING
+
+1.Install and setup VS Code
+2.Install msys2 from the page (link: https://www.msys2.org/ )
+3.After installation open the msys64 from C:\ file and open ucrt64 bin folder (C:\msys64\ucrt64\bin ).
+4.Copy the bin path and paste it in environmental variables path.
+5.Download CMake file and install it and copy its bin path to environmental variables path. ( Link: https://cmake.org/download/ )
+6.open Vs code in our project folder and Clone google Test Repositories to vs code using command in terminal of Vs code.
+  ( Command : git clone https://www.github.com/google/googletest.git )  
+7.Make a file naming " CMakeLists.txt " in vs code in same working folder and paste the contents from github page given below 
+  ( https://github.com/Vartzzr/UNIT-TESTING/tree/main )
+8.include the header file and main() part in file which we are giving the test cases.
+  ( Header file and main() part is given in same GitHub itself )
+9.After writing the code build and Run all test cases. 
